@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+div img {
+  width: 100%;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+.reset-margin{
+    margin: 0;
+}
+
+.hieght{
+height: fit-content;
+}
+.width{
+  width: 49%;
+}
+/* ********************************************************************************** */
+
+span img{
+  width: 50px;
+  height: 50px;
+}
+
+nav img{
+    width: 15%;
+}
+
+
+.bg-span{
+    background-color: #7828FC;
+}
+
+.color{
+  color: #7F22FE;
+}
+.my-btn{
+  background-color: #5238F7 ;
+  transition: transform 0.3s;
+  -webkit-transition: transform 0.3s;
+  -moz-transition: transform 0.3s;
+  -ms-transition: transform 0.3s;
+  -o-transition: transform 0.3s;
+}
+
+.my-btn:hover{
+  background-color:#5238F7 ;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+
+.bg-icon1{
+  background-color: #1C69FF;
+}
+.bg-icon2{
+  background-color: #FFA600;
+}
+.bg-icon3{
+  background-color: #F10031 ;
+}
+
+
+.bg-icon4{
+  background-color: #DBEAFE;
+}
+.color{
+  color: #155DFC;
+}
+
+.bg-name{
+  background-color: #7A34FE;
+}
+
+
+.bg-section{
+  background-color: #F8FAFC;
+}
+
+
+.my-btn1:hover{
+background-color: #EEF2FF;
+color: #4F39F6  ;
+}
+
+.my-btn2:hover{
+background-color:#FFF1F2 ;
+color:#EC003F;
+}
+
+
+.hide{
+  display: none;
+}
