@@ -160,8 +160,9 @@ function updateContact(index) {
 }
 
 function updateThisContact() {
+  var imgupdate = photo.files[0] ? `img7/${photo.files[0].name}` : contactlist[globalIndex].img ? contactlist[globalIndex].img :fullname.value.charAt(0).toUpperCase();
   var updateContact = {
-    img: `img7/${photo.files[`0`].name}`,
+    img: imgupdate,
     name: fullname.value,
     phone: PhoneNumber.value,
     Emailaddress: Email.value,
@@ -170,6 +171,8 @@ function updateThisContact() {
     notes: notes.value,
     Favoriteoption: Favorite.checked,
     Emergencyoption: Emergency.checked,
+    firstLetter: fullname.value.charAt(0).toUpperCase(),
+
   };
   // console.log(updateContact)
   contactlist[globalIndex] = updateContact;
